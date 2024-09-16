@@ -35,7 +35,7 @@ function TA8() {
         <>
             <div className="container">
                 <div className={styles.ta8}>
-                    <h1>TA 7</h1>
+                    <h1>TA 8</h1>
                     <form className={styles.ta8__form} onSubmit={handleSubmit}>
                         <input type="text" name="task" id="task" />
                         <button type='submit'>Save</button>
