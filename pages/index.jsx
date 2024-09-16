@@ -15,6 +15,7 @@ function Home() {
                     <li><Link href="/ta5">TA 5</Link></li>
                     <li><Link href="/ta6">TA 6</Link></li>
                     <li><Link href="/ta7">TA 7</Link></li>
+                    <li><Link href="/ta8">TA 8</Link></li>
                 </ol>
             </div>
         </div>

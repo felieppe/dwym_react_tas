@@ -1,0 +1,57 @@
+.ta8__form input {
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ta8__form button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 10px;
+}
+
+.ta8__form button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.ta8__saved {
+    list-style: none;
+    padding: 0;
+}
+
+.ta8__saved li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 10pt;
+}
+
+.ta8__saved li svg {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.ta8__saved li svg:hover {
+    color: red;
+}
+
+.saved__task__buttons {
+    display: flex;
+}
+
+.saved__task__buttons svg:not(:last-child) {
+    margin-right: 15px;
+}
