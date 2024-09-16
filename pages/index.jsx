@@ -11,6 +11,7 @@ function Home() {
 
                 <ol className={styles.homepage__index}>
                     <li><Link href="/ta3">TA 3</Link></li>
+                    <li><Link href="/ta4">TA 4</Link></li>
                 </ol>
             </div>
         </div>

@@ -1,0 +1,29 @@
+.ta4 button {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.ta4 button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.ta4 button:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.ta4__counter {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+}
