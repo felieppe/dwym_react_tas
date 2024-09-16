@@ -1,0 +1,33 @@
+.ta11__stopwatch__timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1B1212;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.ta11__stopwatch__buttons button {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.ta11__stopwatch__buttons button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.ta11__stopwatch__buttons button:not(:last-child) {
+    margin-right: 0.5rem;
+}
