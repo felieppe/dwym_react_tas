@@ -1,0 +1,40 @@
+.ta6__form input {
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ta6__form button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 10px;
+}
+
+.ta6__form button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.ta6__saved {
+    list-style: none;
+    padding: 0;
+}
+
+.ta6__saved li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 10pt;
+}
