@@ -8,14 +8,6 @@ function TA13() {
     const { username, setUsername } = useContext(UserContext);
     const [display, setDisplay] = useState(false);
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-
-        let username = e.target[0].value;
-        setUsername(username);
-        setDisplay(true)
-    }
-
     const handleChange = (e) => {
         setUsername(e.target.value);
         setDisplay(true);
