@@ -8,17 +8,21 @@ config.autoAddCss = false;
 
 export const UserContext = createContext();
 export const ThemeContext = createContext();
+export const LanguageContext = createContext();
 
 function App({ Component, pageProps }) {
   const [username, setUsername] = useState(null);
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('light')
+  const [language, setLanguage] = useState('en');
 
   return (
-    <ThemeContext.Provider value={{ theme, setTheme }}>
-      <UserContext.Provider value={{ username, setUsername }}>
-        <Component {...pageProps} />
-      </UserContext.Provider>
-    </ThemeContext.Provider>
+    <UserContext.Provider value={{ username, setUsername }}>
+      <ThemeContext.Provider value={{ theme, setTheme }}>
+        <LanguageContext.Provider value={{ language, setLanguage }}>
+          <Component {...pageProps} />
+        </LanguageContext.Provider>
+      </ThemeContext.Provider>
+    </UserContext.Provider>
   )
 }
 

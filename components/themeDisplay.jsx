@@ -2,10 +2,11 @@ import styles from '../styles/components/ThemeDisplay.module.css'
 
 import Image from 'next/image';
 import { useContext } from 'react';
-import { ThemeContext } from '@/pages/_app';
+import { ThemeContext, LanguageContext } from '@/pages/_app';
 
 function ThemeDisplay() {
     const { theme } = useContext(ThemeContext);
+    const { language } = useContext(LanguageContext);
 
     const activity = [
         {
@@ -43,7 +44,7 @@ function ThemeDisplay() {
     return (
         <div className={theme == 'light' ? `${styles.themeDisplay} ${styles.theme__light}` : `${styles.themeDisplay} ${styles.theme__dark}`}>
             <div className={styles.themeDisplay__header}>
-                Recent Activities
+                {language == "en" ? "Recent Activities" : language == "es" ? "Actividades Recientes" : null}
             </div>
 
             <ul className={styles.themeDisplay__content}>
