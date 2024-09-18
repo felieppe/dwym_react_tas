@@ -1,0 +1,24 @@
+.ta12__form input:not([type="submit"]) {
+    width: 200px;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ta12__form input[type="submit"] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 1rem;
+}
+
+.ta12__form input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+}
