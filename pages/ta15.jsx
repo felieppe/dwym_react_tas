@@ -30,18 +30,18 @@ function TA15() {
                 <div className={styles.ta15__options}>
                     <button className={theme == "light" ? `${styles.options__light} ${styles.activated}` : styles.options__light} onClick={handleLightClick}>
                         <FontAwesomeIcon icon={faSun} />
-                        LIGHT
+                        {language == "en" ? "LIGHT" : language == "es" ? "CLARO" : null}
                     </button>
                     <button className={theme == "dark" ? `${styles.options__dark} ${styles.activated}` : styles.options__dark} onClick={handleDarkClick}>
                         <FontAwesomeIcon icon={faMoon} />
-                        DARK
+                        {language == "en" ? "DARK" : language == "es" ? "OSCURO" : null}
                     </button>
                 </div>
 
                 <div className={styles.ta15__language}>
                     <select name="lang" id="lang" value={language} onChange={handleLanguageChange}>
-                        <option value="en">English</option>
-                        <option value="es">Spanish</option>
+                        <option value="en">{language == "en" ? "English" : language == "es" ? "Inglés" : null}</option>
+                        <option value="es">{language == "en" ? "Spanish" : language == "es" ? "Español" : null}</option>
                     </select>
                 </div>
 
