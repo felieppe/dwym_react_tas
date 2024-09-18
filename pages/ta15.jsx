@@ -25,7 +25,7 @@ function TA15() {
     return (
         <div className="container">
             <div className={styles.ta15}>
-                <h1 className={styles.ta15__title}>TA 14</h1>
+                <h1 className={styles.ta15__title}>TA 15</h1>
 
                 <div className={styles.ta15__options}>
                     <button className={theme == "light" ? `${styles.options__light} ${styles.activated}` : styles.options__light} onClick={handleLightClick}>
