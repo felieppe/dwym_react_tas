@@ -1,0 +1,65 @@
+.themeDisplay {
+    padding: 1.5rem 1rem 0.5rem;
+    text-align: left;
+    margin-top: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.themeDisplay__header {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.themeDisplay__content {
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.themeDisplay__activity {
+    display: flex;
+    align-items: center;
+}
+
+.themeDisplay__activity:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.activity__photo img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.activity__data {
+    margin: 0 1rem;    
+}
+
+.activity__data__name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.activity__data__date {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.activity__amount {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 4rem;
+    color: #228B22;
+    text-align: right;
+}
+
+.theme__dark {
+    background-color: black !important;
+    color: white !important;
+}
+
+.theme__light {
+    background-color: white !important;
+    color: black !important;
+}

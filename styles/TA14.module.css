@@ -1,0 +1,48 @@
+.ta14__options {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.ta14__options button {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s, cursor 0.3s;
+}
+
+.ta14__options button svg {
+    margin-right: 0.5rem;
+}
+
+.options__light {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.options__light svg {
+    color: #FFBF00;
+}
+
+.options__dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.activated {
+    opacity: 0.4 !important;
+    cursor: not-allowed !important;
+}
