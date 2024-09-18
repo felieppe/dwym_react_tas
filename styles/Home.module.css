@@ -18,6 +18,13 @@
     padding: 0;
 }
 
+.homepage__index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 60%;
+}
+
 .homepage__index li {
     display: inline-flex;
     justify-content: space-between;
